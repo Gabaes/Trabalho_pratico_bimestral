@@ -6,7 +6,7 @@ int main() {
     int num_fe_verde_louro = 0, num_fem_total = 0;
 
     do {
-        // Leitura dos dados do habitante
+        
         printf("Sexo (M/F): ");
         scanf(" %c", &sexo);
         if (sexo == 'M') continue;
