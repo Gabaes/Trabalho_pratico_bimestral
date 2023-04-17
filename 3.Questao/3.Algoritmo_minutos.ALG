@@ -10,10 +10,10 @@ Inicio
 
 escreval("Qual seu nome?")
 leia(nome)
-escreval("Digite quantos anos você têm?")
+escreval("Digite quantos anos vocÃª tÃªm?")
 leia(idade)
 
-minutos<- idade365*24*60
-escreval("Os minutos que você viveu foram:", minutos)
+minutos<- idade * 365*24*60
+escreval("Os minutos que vocÃª viveu foram:", minutos)
 
 Fimalgoritmo
