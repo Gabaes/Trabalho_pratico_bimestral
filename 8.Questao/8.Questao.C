@@ -1,12 +1,33 @@
 #include <stdio.h>
-#include <string.h>
+int main(){
+int s;
+printf("\n insiraa Sigla Do Estado Abaixo:\n");
+printf("1- AM\n");
+printf("2- RJ\n");
+printf("3- PA\n");
+printf("4- AC\n");
+scanf("%d",&s);
+switch (s){
+ case 1:
+ printf("Amazonense!\n");
+ break;
+ 
+ case 2:
+ printf("Carioca!\n");
+ break;
 
-int main(void)
-{
-    char sigla[3];
+case 3:
+ printf("Paraense!\n");
+ break;
 
-    printf("Sigla do seu estado:");
-    scanf("%s", sigla);
+case 4:
+ printf("Acreano!\n");
+ break;
 
+default:
+printf("Numero Invalido!\n");
+break;
+
+}
     return 0;
 }
